@@ -57,90 +57,76 @@
 
     <main id="main">
 
-        <!-- ======= About Us Section ======= -->
-        <section id="about" class="about">
+    <section id="about" class="about">
             <div class="container">
 
                 <div class="section-title" data-aos="fade-up">
-                    <h2>Tentang Kami</h2>
+                    <h2>ABOUT US</h2>
                 </div>
 
-                <div class="row content">
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
-                        <p>
-                        <h3>APLIKASIKU</h3> adalah sistem laporan pengaduan layanan publik yang dibuat untuk memudahkan
-                        masyarakat
-                        untuk memberikan laporan atau informasi kepada pihak berwenang.
-                        </p>
-                        <ul>
-                            <h3>Tujuan APLIKASIKU</h3>
-                            <li><i class="ri-check-double-line"></i>Memberikan informasi atau laporan yang jelas kepada
-                                pihak berwenang supaya bisa ditindak lebih lanjut</li>
-                            <li><i class="ri-check-double-line"></i>Mempermudah masyarakat untuk berkomunikasi dengan
-                                pihak
-                                berwenang</li>
-                        </ul>
+                <div class="about-row d-flex justify-content-center gap-4" >
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                            <div class="icon"><i class='bx bx-message-dots'></i></div>
+                            <h4 class="title"><a href="">SOLVITY</a></h4>
+                            <p class="description">adalah aplikasi pengaduan mahasiswa Universitas Teknologi Yogyakarta untuk menyampaikan keluhan, kritik, dan saran terkait layanan kampus.</p>
+                        </div>
                     </div>
-                    <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
-                        <p>
-                        <h4>APLIKASIKU</h4> merupakan komitmen kami untuk melayani masyarakat. Dengan hadirnya sistem
-                        pelaporan pengaduan online ini, diharapkan setiap suara masyarakat bisa didengar dan
-                        ditindaklanjuti
-                        oleh pihak berwenang.
-                        </p>
-                        <a href="#services" class="btn-learn-more">Tata cara atau alur pengaduan</a>
+
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                            <div class="icon"><i class="bx bx-calendar-check"></i></div>
+                            <h4 class="title"><a href="">TUJUAN</a></h4>
+                            <p class="description">adalah untuk menciptakan solusi layanan pengaduan digital yang efisien, responsif, dan transparan bagi mahasiswa Universitas Teknologi Yogyakarta.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+                        <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                            <div class="icon"><i class="bx bx-message-dots"></i></div>
+                            <h4 class="title"><a href="">SOLVITY</a></h4>
+                            <p class="description">berkomitmen untuk memberikan layanan pengaduan yang transparan, efisien, dan responsif, dan meningkatkan kualitas pelayanan kampus.</p>
+                        </div>
                     </div>
                 </div>
 
             </div>
-        </section><!-- End About Us Section -->
+        </section><!-- End Services Section -->
 
         <!-- ======= Counts Section ======= -->
         <section id="counts" class="counts">
             <div class="container">
+                <div class="row align-items-center">
+                    <!-- Gambar -->
+                    <div class="col-lg-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="150">
+                        <img src="assets/img/counts-img.svg" alt="" class="img-fluid">
+                    </div>
 
-                <div class="row <div class=" image col-xl-5 d-flex align-items-stretch justify-content-center
-                    justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
-                    <img src="assets/img/counts-img.svg" alt="" class="img-fluid">
-                </div>
-
-                <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
-                    <div class="content d-flex flex-column justify-content-center">
-                        <div class="row">
-                            <div class="col-md-6 d-md-flex align-items-md-stretch">
-                                <div class="count-box">
-                                    <i class="bi bi-emoji-smile"></i>
-                                    <span data-purecounter-start="0" data-purecounter-end="65"
-                                        data-purecounter-duration="1" class="purecounter"></span>
-                                    <p><strong>Pengguna</strong><br>DAFTAR pengguna APLIKASIKU</p>
-                                </div>
+                    <!-- Count Box -->
+                    <div class="col-lg-7 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="300">
+                        <div class="content d-flex flex-wrap justify-content-between">
+                            <div class="count-box">
+                                <i class="bi bi-emoji-smile"></i>
+                                <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="1" class="purecounter"></span>
+                                <p><strong>Pengguna</strong><br>DAFTAR pengguna SOLVITY</p>
                             </div>
 
-                            <div class="col-md-6 d-md-flex align-items-md-stretch">
-                                <div class="count-box">
-                                    <i class="bi bi-journal-richtext"></i>
-                                    <span data-purecounter-start="0" data-purecounter-end="85"
-                                        data-purecounter-duration="1" class="purecounter"></span>
-                                    <p><strong>Pengaduan</strong> <br> Jumlah pengaduan yang sudah dilaporkan</p>
-                                </div>
+                            <div class="count-box">
+                                <i class="bi bi-journal-richtext"></i>
+                                <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
+                                <p><strong>Pengaduan</strong><br>Jumlah pengaduan yang sudah dilaporkan</p>
                             </div>
 
-                            <div class="col-md-6 d-md-flex align-items-md-stretch">
-                                <div class="count-box">
-                                    <i class="bi bi-clock"></i>
-                                    <span data-purecounter-start="0" data-purecounter-end="18"
-                                        data-purecounter-duration="1" class="purecounter"></span>
-                                    <p><strong>Tuntas</strong> <br> Jumlah laporan yang sudah ditangani</p>
-                                </div>
+                            <div class="count-box">
+                                <i class="bi bi-clock"></i>
+                                <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
+                                <p><strong>Tuntas</strong><br>Jumlah laporan yang sudah ditangani</p>
                             </div>
-
                         </div>
-                    </div><!-- End .content-->
+                    </div>
                 </div>
             </div>
-
-            </div>
-        </section><!-- End Counts Section -->
+        </section>
 
         <!-- ======= Services Section ======= -->
         <section id="services" class="services">
@@ -148,7 +134,7 @@
 
                 <div class="section-title" data-aos="fade-up">
                     <h2>TATA CARA</h2>
-                    <p>Nah ini dia alur pelaporan yang ada di website APLIKASIKU</p>
+                    <p>Nah ini dia alur pelaporan yang ada di website SOLVITY</p>
                 </div>
 
                 <div class="row">
@@ -180,7 +166,7 @@
                         <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
                             <div class="icon"><i class='bx bx-check-shield'></i></div>
                             <h4 class="title"><a href="">Selesai</a></h4>
-                            < p class="description">Laporan pengaduan telah selesai ditindak.</p>
+                            <p class="description">Laporan pengaduan telah selesai ditindak.</p>
                         </div>
                     </div>
 
