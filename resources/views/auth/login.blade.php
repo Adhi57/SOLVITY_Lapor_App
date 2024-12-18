@@ -1,9 +1,10 @@
 <x-guest-layout>
     <x-auth-card>
-        
+    @include('includes.landing.stylesheet')
+
         <x-slot name="logo">
             <a href="/">
-                <img class="w-20 h-20" src="{{ asset('img/logo.svg')}} " alt="Logo">
+                <img class="w-20 h-20 rounded-full" src="{{ asset('/img/logo2.jpeg')}} " alt="Logo">
             </a>
         </x-slot>
 
@@ -19,15 +20,14 @@
 
             <!-- Email Address -->
             <div>
-                <x-label for="email" :value="__('Email')" />
+                <x-label for="email" :value="__('Email')" class=" text-white" />
 
                 <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus />
             </div>
 
             <!-- Password -->
             <div class="mt-4">
-                <x-label for="password" :value="__('Password')" />
-
+                <x-label for="password" :value="__('Password')" class=" text-white"/> 
                 <x-input id="password" class="block mt-1 w-full"
                                 type="password"
                                 name="password"
@@ -36,22 +36,22 @@
 
             <!-- Remember Me -->
             <div class="block mt-4">
-                <label for="remember_me" class="inline-flex items-center">
+                <label for="remember_me" class="inline-flex items-center" >
                     <input id="remember_me" type="checkbox" class="rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50" name="remember">
-                    <span class="ml-2 text-sm text-gray-600">{{ __('Ingat Saya') }}</span>
+                    <span class="ml-2 text-sm text-white">{{ __('Ingat Saya') }}</span>
                 </label>
             </div>
 
             <div class="flex items-center justify-end mt-4">
                 @if (Route::has('password.request'))
-                    <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('password.request') }}">
+                    <a class="underline text-sm text-white hover:text-gray-900" href="{{ route('password.request') }}">
                         {{ __('lupa kata sandi Anda?') }}
                     </a>
                 @endif
 
                 
 
-                <x-button class="ml-3  bg-blue-500 text-white font-bold rounded-md my-3 py-3 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:bg-blue-500 hover:scale-105 duration-300 ease-in-out">
+                <x-button class="login-btn ml-3 font-bold rounded-md my-3 py-3 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:bg-blue-500 hover:scale-105 duration-300 ease-in-out" style="color: black;">
                     {{ __('Login') }}
                 </x-button>
             </div>

@@ -28,7 +28,7 @@
 
             <div class="flex items-center justify-end mt-4">
            
-                <x-button class=" bg-blue-500 text-white font-bold rounded-md my-3 py-3 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:bg-blue-500 hover:scale-105 duration-300 ease-in-out">
+                <x-button class=" bg-blue-500 text-black font-bold rounded-md my-3 py-3 px-4 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:bg-blue-500 hover:scale-105 duration-300 ease-in-out">
                      {{ __('Tautan Atur Ulang Kata Sandi Email') }}
                 </x-button>
             </div>
